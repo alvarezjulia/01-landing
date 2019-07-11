@@ -1,0 +1,63 @@
+/*FONT SIZES*/
+/* 60 - 36 - 35 - 34 - 32 -30 - 25 - 24 - 20 - 18 - 16 -12 */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+/*HEADER*/
+.header {
+    background-image: url("https://res.cloudinary.com/dxbwwhlc6/image/upload/v1562780192/header_s9qzns.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    height: 747px;
+}
+
+.header img {
+    position: relative;
+    top: 48px; 
+    left: 74.3px;
+    height: 68px;
+}
+
+.header-content {
+    width: 768px;
+    padding: 72px;
+    color: #fff;
+}
+
+.header-content h1, p {
+    position: relative;
+    top: 20%;
+    margin-bottom: 1rem;
+}
+
+.header-content h1 {
+    font-size: 53px;
+}
+
+.header-content p {
+    font-size: 25px;
+}
+
+form {
+    width: 480px;
+    height: 572px;
+
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.08);
+}
