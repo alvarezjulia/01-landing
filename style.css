@@ -38,7 +38,7 @@ body {
     color: #fff;
 }
 
-.header-content h1, p {
+.head-text-position {
     position: relative;
     top: 20%;
     margin-bottom: 1rem;
