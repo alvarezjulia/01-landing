@@ -1,6 +1,15 @@
 /*FONT SIZES*/
 /* 60 - 36 - 35 - 34 - 32 -30 - 25 - 24 - 20 - 18 - 16 -12 */
 
+/*COLORS*/
+/* Text: #404040
+Few blue headers: #0D8B9F
+Few orange headers: #F49102
+Form & some boxes text: #2D354C
+Video box: rgba(45, 197, 250, 0.1)
+People box blue: #E5F3F5
+People box orange: #FEF4E6*/
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -16,9 +25,12 @@ body {
     display: flex;
     justify-content: center;
     align-content: center;
-    margin: 6rem 2.5rem;
 }
 
+.column {
+    flex-direction: column;
+}
+ 
 /*HEADER*/
 .header {
     background-image: url("https://res.cloudinary.com/dxbwwhlc6/image/upload/v1562780192/header_s9qzns.jpg");
@@ -40,7 +52,6 @@ body {
     color: #fff;
 }
 
-
 .header-content h1 {
     font-size: 53px;
 }
@@ -49,11 +60,13 @@ body {
     font-size: 25px;
 }
 
+/*FORM*/
 .form {
     width: 480px;
     height: 572px;
 
     padding: 2rem;
+    margin-top: 2rem;
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.08);
@@ -86,14 +99,19 @@ button {
 }
 
 /*RECTANGLES*/
-.rect-1 {
+.rect-box {
     margin: 6.2rem 9.4rem;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.08);
 }
 
-.rect-1-text {
-    padding: 0 3rem;
+.rect-text {
+    padding: 1rem 4.5rem;
     line-height: 150%;
+    font-size: 18px;
+}
+
+.rect {
+    margin: 6rem 0;
 }
 
 .video-box {
@@ -101,4 +119,44 @@ button {
     border-radius: 6px;
     margin: 2.25rem 4.5rem;
     height: 40vh;
+    padding: 2rem;
+}
+
+.video-box-text {
+    color: #2D354C;
+    margin-right: 2rem;
+    line-height: 150%;
+}
+
+/*PEOPLE BOXES*/
+.people-box-intro {
+    text-align: center;
+    padding-bottom: 2rem;
+    margin: 4rem 0;
+}
+
+.people-cont {
+    margin: 3rem 11.5rem;
+}
+
+.people-flex-end{
+    justify-content: flex-end;
+}
+
+.people-box {
+    height: 302px;
+    width: 904px;
+    border-radius: 6px;
+    quotes:  "“" "“" ;
+    line-height: 32px;
+}
+
+.people-blue {
+    background-color: #E5F3F5;
+    padding: 3.7rem 5rem 3.7rem 17rem;
+}
+
+.people-orange {
+    background-color: #FEF4E6;
+    padding: 3.7rem 17rem 3.7rem 5rem;
 }
