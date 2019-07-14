@@ -135,12 +135,16 @@ button {
     margin: 4rem 0;
 }
 
-.people-cont {
-    margin: 3rem 11.5rem;
+.people-main-cont {
+    margin: 3rem 11.5rem 6rem 11.5rem;
 }
 
 .people-flex-end{
     justify-content: flex-end;
+}
+
+.people-cont {
+    margin: 1rem 0;
 }
 
 .people-box {
@@ -159,4 +163,31 @@ button {
 .people-orange {
     background-color: #FEF4E6;
     padding: 3.7rem 17rem 3.7rem 5rem;
+}
+
+/*REASONS*/
+.reasons{
+    background-color: #FEF4E6;
+    height: 30rem;
+    padding: 3.7rem 4rem;
+}
+
+.reasons-text {
+    width: 42vw;
+    line-height: 140%;
+    margin-right: 2rem;
+}
+
+.reasons-text ul{
+    list-style: none;
+}
+
+.reasons-text li{
+    padding: 0.5rem 0 1.5rem 3rem;
+    background: url("https://res.cloudinary.com/dxbwwhlc6/image/upload/v1563116375/tick_nrstto.png") no-repeat 0 0;
+}
+
+.reasons form{
+    position: relative;
+    top: -8rem;
 }
