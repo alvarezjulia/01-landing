@@ -5,7 +5,7 @@
 /* Text: #404040
 Few blue headers: #0D8B9F
 Few orange headers: #F49102
-Form & some boxes text: #2D354C
+Form, footer & some boxes text: #2D354C
 Video box: rgba(45, 197, 250, 0.1)
 People box blue: #E5F3F5
 People box orange: #FEF4E6*/
@@ -43,7 +43,7 @@ body {
     position: relative;
     top: 48px; 
     left: 74.3px;
-    height: 68px;
+    height: 15vh;
 }
 
 .header-content {
@@ -143,6 +143,10 @@ button {
     justify-content: flex-end;
 }
 
+.people-flex-start {
+    justify-content: flex-start;
+}
+
 .people-cont {
     margin: 1rem 0;
 }
@@ -157,12 +161,24 @@ button {
 
 .people-blue {
     background-color: #E5F3F5;
-    padding: 3.7rem 5rem 3.7rem 17rem;
+    padding: 3.7rem 2rem;
 }
 
 .people-orange {
     background-color: #FEF4E6;
-    padding: 3.7rem 17rem 3.7rem 5rem;
+    padding: 3.7rem 3rem 3.7rem 5rem;
+}
+
+.people-image img{
+    transform: translate(-100px, -3rem);
+    width: 25vw;
+    border-radius: 6px;
+}
+
+.people-image-end img{
+    transform: translate(120px, -3rem);
+    width: 25vw;
+    border-radius: 6px;
 }
 
 /*REASONS*/
@@ -189,5 +205,34 @@ button {
 
 .reasons form{
     position: relative;
-    top: -8rem;
+    top: -9rem;
+}
+
+/*FOOTER*/
+.footer {
+    margin-top: 6rem;
+    height: 10rem;
+    background-color:  #2D354C;
+    justify-content: space-between;
+    padding: 3rem 4rem;
+    color: #6b6a6a;
+}
+
+.ironhack-info {
+    align-items: center;
+}
+.ironhack-info img{
+    height: 4rem;
+    margin: 1rem;
+}
+
+.certificates img{
+    margin: 2rem;
+    height: 43px;
+}
+
+@media only screen and (max-width: 992px) {
+    .mobile-header {
+        
+    }
 }
