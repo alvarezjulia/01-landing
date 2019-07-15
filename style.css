@@ -15,18 +15,15 @@ People box orange: #FEF4E6*/
     margin: 0;
     padding: 0;
 }
-
 body {
     font-family: sans-serif;
     color: #404040;
 }
-
 .container {
     display: flex;
     justify-content: center;
     align-content: center;
 }
-
 .column {
     flex-direction: column;
 }
@@ -38,24 +35,20 @@ body {
     background-size: 100vw;
     height: 747px;
 }
-
 .header img {
     position: relative;
     top: 48px; 
     left: 74.3px;
     width: 8vw;
 }
-
 .header-content {
     width: 768px;
     padding: 72px;
     color: #fff;
 }
-
 .header-content h1 {
     font-size: 53px;
 }
-
 .header-content p {
     font-size: 25px;
 }
@@ -76,19 +69,16 @@ body {
     flex-direction: column;
     justify-content: space-between;
 }
-
 input {
     border: 0;
     border-bottom: 2px solid black;
     font-size: 16px;
 }
-
 label {
     font-weight: bold;
     font-size: 12px;
     line-height: 16px;
 }
-
 button {
     color: #fff;
     background-color: #2DC5FA;;
@@ -103,20 +93,20 @@ button {
     border-radius: 4px 0px 0px 4px;
     width: 30vw;
 }
-
 .rect-box {
     margin: 6.2rem 9.4rem;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.08);
 }
-
 .rect-text {
     padding: 1rem 4.5rem;
     line-height: 150%;
     font-size: 18px;
 }
-
 .rect {
     margin: 6rem 0;
+}
+.rect img{
+    width: 30vw;
 }
 
 .video-box {
@@ -126,7 +116,6 @@ button {
     height: 40vh;
     padding: 2rem;
 }
-
 .video-box-text {
     color: #2D354C;
     margin-right: 2rem;
@@ -139,23 +128,18 @@ button {
     padding-bottom: 2rem;
     margin: 4rem 0;
 }
-
 .people-main-cont {
     margin: 3rem 11.5rem 6rem 11.5rem;
 }
-
 .people-flex-end{
     justify-content: flex-end;
 }
-
 .people-flex-start {
     justify-content: flex-start;
 }
-
 .people-cont {
     margin: 1rem 0;
 }
-
 .people-box {
     height: 302px;
     width: 904px;
@@ -163,23 +147,19 @@ button {
     quotes:  "“" "“" ;
     line-height: 32px;
 }
-
 .people-blue {
     background-color: #E5F3F5;
     padding: 3.7rem 2rem;
 }
-
 .people-orange {
     background-color: #FEF4E6;
     padding: 3.7rem 2rem;
 }
-
 .people-image img{
     transform: translate(-100px, -3rem);
     width: 25vw;
     border-radius: 6px;
 }
-
 .people-image-end img{
     transform: translate(120px, -3rem);
     width: 25vw;
@@ -192,22 +172,18 @@ button {
     height: 30rem;
     padding: 3.7rem 4rem;
 }
-
 .reasons-text {
     width: 42vw;
     line-height: 140%;
     margin-right: 2rem;
 }
-
 .reasons-text ul{
     list-style: none;
 }
-
 .reasons-text li{
     padding: 0.5rem 0 1.5rem 3rem;
     background: url("https://res.cloudinary.com/dxbwwhlc6/image/upload/v1563116375/tick_nrstto.png") no-repeat 0 0;
 }
-
 .reasons form{
     position: relative;
     top: -9rem;
@@ -222,7 +198,6 @@ button {
     padding: 3rem 4rem;
     color: #6b6a6a;
 }
-
 .ironhack-info {
     align-items: center;
 }
@@ -230,14 +205,13 @@ button {
     height: 4rem;
     margin: 1rem;
 }
-
 .certificates img{
     margin: 2rem;
     height: 43px;
 }
 
 @media only screen and (max-width: 992px) {
-    .mobile-wrap {
+    .tablet-wrap {
         flex-wrap: wrap;
     }
 
@@ -245,7 +219,6 @@ button {
     .form{
         width: 80vw;
     }
-
     .header-content {
        padding: 4rem 0 1rem 0;
        width: 80vw;
@@ -255,42 +228,37 @@ button {
     .intro {
         margin-top: 20rem;
     }
-
     .intro-img {
         width: 292px;
         height: 298px;
+        margin-top: 3rem;
     }
 
     /*PEOPLE BOXES*/
     .people-image img{
         transform: translate(-80px, -0.8rem);
     }
-
     .people-image-end img{
         transform: translate(120px, -0.8rem);
     }
-
     q {
         font-size: 16px;
     }
 
     /*REASONS*/
-    .mobile-column {
+    .tablet-column {
        flex-direction: column;
     }
-
     .reasons{
         height: 1000px;
         background-size: 50%;
         padding-bottom: 1rem;
     }
-
     .reasons-text {
         width: 95vw;
         padding: 0 4rem 0 0;
         line-height: 110%;
     }
-
     .reasons form{
         top:0;
     }
@@ -298,5 +266,93 @@ button {
     /*FOOTER*/
     .footer {
         height: 300px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .mobile-column {
+        flex-direction: column;
+     }
+     .mobile-wrap {
+        flex-wrap: wrap;
+    }
+
+    /*HEADER*/
+    .header {
+        background-size: cover;
+    }
+    .header img {
+        width: 50px;
+        left: 30px;
+    }
+    .header-content h1 {
+        font-size: 32px;
+    }
+    .header-content p {
+        font-size: 22px;
+    }
+
+    /*INTRO & RECTS*/
+    .intro-img {
+        border-radius:4px 4px 0px 0px;
+    }
+    .intro{
+        margin: 13rem 0rem 0 0;
+    }
+    .rect-box {
+        margin: 0;
+    }
+    .intro-mobile-box {
+        background-color: #fff;
+        margin-top: 1rem;
+        background-color: rgba(45, 53, 76, 0.05);;
+    }
+    .rect-text{
+        font-size: 16px;
+        line-height: 160%;
+        padding: 1rem;
+    }
+    .rect-text h1{
+        font-size:  24px;
+        line-height: 100%
+    }
+    .rect img{
+        width: 100vw;
+    }
+
+    /*VALUES*/
+    .video-box {
+        width: 100vw;
+        margin: 0;
+        margin-top: 2rem;
+        padding: 1rem;
+        height: 80vh;;
+    }
+    .video-box img{
+        margin-top: 2rem;
+        width: 90vw;
+        height: auto;
+    }
+
+    /*PEOPLE BOXES*/
+    .people-main-cont {
+        margin: 0;
+        padding: 1rem;
+    }
+    .people-main-cont p {
+        font-size: 16px;
+    }
+    .people-box  {
+        line-height: 110%;
+    }
+    .people-image img{
+        transform: none;
+        width: 33vw;
+        margin-bottom: 0.5rem;
+    }
+    .people-image-end img{
+        transform: none;
+        margin-top: 0.5rem;
+        width: 33vw;
     }
 }
