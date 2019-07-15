@@ -355,4 +355,32 @@ button {
         margin-top: 0.5rem;
         width: 33vw;
     }
+
+    /*REASONS*/
+    .reasons {
+        padding: 1.5rem;
+        padding-top: 5rem;
+        height: 1400px;
+        background-size: 50%;       
+    }
+    .reasons-text {
+        font-size: 16px;
+        line-height: 140%;
+    }
+
+    /*FOOTER*/
+    .footer {
+        height: 200px;
+        padding: 0.5rem;
+        margin-top: 3rem;
+    }
+    .ironhack-info img{
+        height: 4rem;
+        margin: 0.8rem;
+    }
+    .certificates img{
+        margin: 0.8rem;
+        height: 43px;
+    }
+
 }
