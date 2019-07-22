@@ -276,6 +276,9 @@ button {
      .mobile-wrap {
         flex-wrap: wrap;
     }
+    .order {
+        order: 1
+    }
 
     /*HEADER*/
     .header {
@@ -359,8 +362,7 @@ button {
     /*REASONS*/
     .reasons {
         padding: 1.5rem;
-        padding-top: 5rem;
-        height: 1400px;
+        height: 1200px;
         background-size: 50%;       
     }
     .reasons-text {
