@@ -15,10 +15,7 @@ People box orange: #FEF4E6*/
     margin: 0;
     padding: 0;
 }
-@font-face {
-    font-family: "Gelion-Regular";
-    src: url("./Gelion/Font/Gelion-Regular.ttf");
-}
+@font-face {font-family: 'Gelion-Regular';src: url('webfonts/39D94A_8_0.eot');src: url('webfonts/39D94A_8_0.eot?#iefix') format('embedded-opentype'),url('webfonts/39D94A_8_0.woff2') format('woff2'),url('webfonts/39D94A_8_0.woff') format('woff'),url('webfonts/39D94A_8_0.ttf') format('truetype');}
 
 body {
     /*font-family: sans-serif;*/
